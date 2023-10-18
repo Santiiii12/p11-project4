@@ -7,6 +7,7 @@
 <style>
     img {
         width: auto;
+        
         height: 1.5rem;
     }
 </style>
