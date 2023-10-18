@@ -50,5 +50,13 @@
         background-color: transparent;
         border:2px solid white;
        }
-       
+
+       .buttonclass:hover {
+        color:azure
+       }
+
+       .buttonsesion:hover {
+
+        color:grey
+       }
    </style>

@@ -1,4 +1,6 @@
 <script>
+    import { onMount } from "svelte";
+
     const url = 'https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=es-US&page=1&sort_by=popularity.desc'
     const options = {
        method: 'GET',
@@ -10,10 +12,10 @@
 
 let movies = [];
 
-fetch(url, options)
+onMount( () => fetch (url, options)
   .then(response => response.json())
   .then( data => movies = data.results)
-  .catch(err => console.error(err));
+  .catch(err => console.error(err)));
 
 </script>
 <div>

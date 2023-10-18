@@ -10,6 +10,9 @@
         color:white;
         margin:0 10px;
     }
+    a:hover {
+        color:greenyellow
+    }
 </style>
 
 
