@@ -1,7 +1,7 @@
 <script>
     import { onMount } from "svelte";
 
-    const url = 'https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=es-US&page=1&sort_by=popularity.desc'
+    const url = `https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=es-ES&with_genres=${28}`
     const options = {
        method: 'GET',
        headers: {
